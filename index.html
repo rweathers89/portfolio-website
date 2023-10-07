@@ -21,8 +21,8 @@
             <ul role="menubar" class="navigation-list"> <!--role attribute assigns more detail to a tag, allowing 
             screen readers to effectively organize and read info-->
                 <li role="presentation"><a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Home</a></li>
-                <li role="presentation"><a href="work.html" role="menuitem" class="navigation-list__item">Projects</a></li>
                 <li role="presentation"><a href="about.html" role="menuitem" class="navigation-list__item">About Me</a></li>
+                <li role="presentation"><a href="work.html" role="menuitem" class="navigation-list__item">Projects</a></li>
                 <li role="presentation"><a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a></li>
             <!--class items are using the BEM structure (Block__Element--Modifier) to name classes-->
             </ul>
@@ -35,7 +35,12 @@
             <h1>Rachel Weathers</h1>
                 <p>
                    Hi there! I am a web developer in San Diego, California.<br>
-                    Welcome to my portfolio.
+                    Welcome to my portfolio.<br>
+                    Imagine a kid living in a Southern California beach city dreaming of becoming a professional ice skater.<br>
+                    Do you think that kid, who had never seen snow and detested cold weather, would create a conventional career path?<br>
+                    The answer is Absolutely Not!<br>
+                    This kid went on a wild journey around the world, dabbled in the financial field, and found herself craving creativity<br>
+                    but also tantalized by technology. So what did she do? Decided to dive head first into the wonderful world of Web Development. 
                 </p>
         </div>
         <p>
@@ -49,12 +54,14 @@
     <footer class="page-footer">
         <p>Find me on</p>
         <div class="social-media">
-            <img src="img/linkedin_icon.svg" alt="LinkedIn logo"/>
-            <img src="img/github_icon.svg" alt="Github logo"/>
-            <img src="img/youtube_icon.svg" alt="Youtube logo"/>
+            <img src="img/linkedin_icon.svg" alt="LinkedIn logo"/> <!--add link href="www.linkedin.com/in/rachel-weathers"-->
+            <img src="img/github_icon.svg" alt="Github logo"/> <!-- add link href="https://github.com/rweathers89/portfolio-website" -->
+           <!-- <img src="img/youtube_icon.svg" alt="Youtube logo"/>  
+        add YouTube link later-->
         </div>    
     </footer>
-    <a href="#">Back to Top</a>
+    <a href="#">Back to Top</a> <!--@media, remove this when on larger screens-->
+    <script src="js/tota11y.min.js"></script> <!--javascript plugin that checks if HTML is accessible-->
 </body>
-<script src="js/tota11y.min.js"></script> <!--javascript plugin that checks if HTML is accessible-->
+
 </html>

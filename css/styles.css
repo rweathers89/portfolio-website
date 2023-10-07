@@ -128,6 +128,18 @@ button:focus, .button:focus {
   margin: 0 auto;
 }
 
+#main-contact__body {
+  max-width: 700px;
+  min-width: 300px;
+  margin: 5px auto;
+  border: 10px double #460631;
+  padding: 10px;
+}
+
+.standard-label, .message {
+  width: 150px;
+}
+
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -177,6 +189,7 @@ set to 0, that means it will not be able to shrink.*/
   -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
+  padding: 1em;
   /*It’s considered good practice to specify only one property
   and usually the grid-template-column 
   grid-template-rows defaults to auto*/
@@ -185,6 +198,7 @@ set to 0, that means it will not be able to shrink.*/
 .grid__item {
   display: inline-block;
   width: 33%;
+  padding: 2em;
 }
 
 /*start grid fallback*/

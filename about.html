@@ -21,8 +21,8 @@
             <ul role="menubar" class="navigation-list"> <!--role attribute assigns more detail to a tag, allowing 
             screen readers to effectively organize and read info-->
                 <li role="presentation"><a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Home</a></li>
-                <li role="presentation"><a href="work.html" role="menuitem" class="navigation-list__item">Projects</a></li>
                 <li role="presentation"><a href="about.html" role="menuitem" class="navigation-list__item">About Me</a></li>
+                <li role="presentation"><a href="work.html" role="menuitem" class="navigation-list__item">Projects</a></li>
                 <li role="presentation"><a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a></li>
             <!--class items are using the BEM structure (Block__Element--Modifier) to name classes-->
             </ul>
@@ -32,9 +32,12 @@
         <div class="main-about__body">
             <h1 id="about">About Me</h1>
             <p>
-                I am currently enrolled in the Full Stack immersion program with CareerFoundry.<br>
-                My career journey so far has taken all across the globe and back, landing in the world of web development.<br>
-                I'm excited to bring you along for the ride!
+                I am currently enrolled in the Full Stack Immersion program with CareerFoundry.<br>
+                My career journey so far has taken me across the globe and back, landing in the world of web development.<br>
+                I'm excited to bring you along for the ride! 
+            </p>
+            <h2>Skills</h2>
+
             <table>
                 <thead> <!--creates a header of the table and makes it bold-->
                     <tr>
@@ -45,14 +48,29 @@
                 </thead>
                 <tbody>
                     <tr>
+                        <td>Sales Support</td>
+                        <td>5</td>
+                        <td>Expert</td>
+                    </tr>
+                    <tr>
+                        <td>Microsoft Office Suite</td>
+                        <td>8</td>
+                        <td>Intermediate</td>
+                    </tr>
+                    <tr>
+                        <td>Salesforce</td>
+                        <td>3</td>
+                        <td>Intermediate</td>
+                    </tr>
+                    <tr>
                         <td>HTML</td>
                         <td>2</td>
-                        <td>Intermediate</td>
+                        <td>Beginner</td>
                     </tr>
                     <tr>
                         <td>CSS</td>
                         <td>2</td>
-                        <td>Intermediate</td>
+                        <td>Beginner</td>
                     </tr>
                     <tr>
                         <td>JavaScript</td>
@@ -61,7 +79,26 @@
                     </tr>
                 </tbody>
             </table>
-            </p>
+
+            <h2>Experience</h2>
+            <p>
+                My professional background highlights my ability and success working with teams, major projects with specific milestones, and collaborating with multiple lines of business.<br>
+                Teamwork Makes the Dream Work:
+                <ul>
+                    <li>Regularly communicates with team members to create client deliverables</li>
+                    <li>Effectively solves issues for the team and their clients</li>
+                </ul>
+                Major Project, Small Milestones:
+                <ul>
+                    <li>Created leadership workbook for city officials</li>
+                    <li>Completed new hire training</li>
+                </ul>
+                Working Across Lines (of business):
+                <ul>
+                    <li>Planned event for new company initiative kickoff in Southern California with other lines of business</li>
+                    <li>Collaborated with colleagues to create presentation for Employee Resource Groups Programs</li>
+                </ul>
+            
             <p>
                 <a href="files/resume.pdf" class="button" download> Download my Resume</a>
                 Or view my <a href="https://www.linkedin.com/in/rachel-weathers" target="_blank">LinkedIn profile here.</a>
@@ -671,9 +708,10 @@
     <footer class="page-footer">
         <p>Find me on</p>
         <div class="social-media">
-            <img src="img/linkedin_icon.svg" alt="LinkedIn logo"/>
-            <img src="img/github_icon.svg" alt="Github logo"/>
-            <img src="img/youtube_icon.svg" alt="Youtube logo"/>
+            <img src="img/linkedin_icon.svg" alt="LinkedIn logo"/> <!--add link href="www.linkedin.com/in/rachel-weathers"-->
+            <img src="img/github_icon.svg" alt="Github logo"/> <!-- add link href="https://github.com/rweathers89/portfolio-website" -->
+           <!-- <img src="img/youtube_icon.svg" alt="Youtube logo"/>  
+        add YouTube link later-->
         </div>    
     </footer>
     <a href="#">Back to Top</a>
