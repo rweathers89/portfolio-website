@@ -1,49 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rachel's Portfolio</title>
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" type="text/css" href="css/style.production.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tinos:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <!--Header including the logo and the main navigation-->
     <header class="page-header">
         <!--Add your logo here-->
-        <img  src="img/logo.png" alt="logo" class="page-header__item"/>
+        <img src="img/logo.png" alt="logo" class="page-header__item" />
         <nav class="main-navigation page-header__item">
             <ul role="menubar" class="navigation-list"> <!--role attribute assigns more detail to a tag, allowing 
             screen readers to effectively organize and read info-->
-                <li role="presentation"><a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Home</a></li>
-                <li role="presentation"><a href="about.html" role="menuitem" class="navigation-list__item">About Me</a></li>
-                <li role="presentation"><a href="work.html" role="menuitem" class="navigation-list__item">Projects</a></li>
-                <li role="presentation"><a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a></li>
-            <!--class items are using the BEM structure (Block__Element--Modifier) to name classes-->
+                <li role="presentation"><a href="index.html" role="menuitem"
+                        class="navigation-list__item navigation-list__item--active">Home</a></li>
+                <li role="presentation"><a href="about.html" role="menuitem" class="navigation-list__item">About Me</a>
+                </li>
+                <li role="presentation"><a href="work.html" role="menuitem" class="navigation-list__item">Projects</a>
+                </li>
+                <li role="presentation"><a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+                </li>
+                <!--class items are using the BEM structure (Block__Element--Modifier) to name classes-->
             </ul>
         </nav>
     </header>
     <main>
         <div class="profile">
-             <!--Add your portrait image here-->
-            <img src="img/rachel-weathers.jpg" class="profile__portrait" alt="profile picture of Rachel Weathers"/>
-            <h1>Rachel Weathers</h1>
-                <p>
-                   Hi there! I am a web developer in San Diego, California.<br>
-                    Welcome to my portfolio.<br>
-                    Imagine a kid living in a Southern California beach city dreaming of becoming a professional ice skater.<br>
-                    Do you think that kid, who had never seen snow and detested cold weather, would create a conventional career path?<br>
-                    The answer is Absolutely Not!<br>
-                    This kid went on a wild journey around the world, dabbled in the financial field, and found herself craving creativity<br>
-                    but also tantalized by technology. So what did she do? Decided to dive head first into the wonderful world of Web Development. 
-                </p>
+            <!--Add your portrait image here-->
+            <img src="img/rachel-weathers.jpg" class="profile__portrait" alt="profile picture of Rachel Weathers" />
+            <h1>Hi there!</h1>
+            <p class="about">
+                My name is Rachel and I am a web developer in San Diego, California.
+                Welcome to my portfolio!
+                Imagine a kid living in a Southern California beach city
+                dreaming of becoming a professional ice
+                skater.
+                Do you think that kid, who had never seen snow and detested
+                cold weather, would adhere to a conventional career path?
+                <strong>Absolutely Not!</strong>
+                This kid went on a wild journey around the world, through the
+                financial field jungle, and found herself craving creativity and
+                yet, tantalized by technology. So what did she do? Decided to
+                dive head first into the wonderful world of Full Stack Development.
+            </p>
         </div>
-        <p>
+        <p class="about">
             Most recent projects: <br>
             <!--<button type="button">Project 1</button> this is Button 1
              the secondary button is a sample button to show how to use classes for CSS
@@ -52,13 +64,19 @@
         </p>
     </main>
     <footer class="page-footer">
-        <p>Find me on</p>
+        <p>Find me on:</p>
         <div class="social-media">
-            <img src="img/linkedin_icon.svg" alt="LinkedIn logo"/> <!--add link href="www.linkedin.com/in/rachel-weathers"-->
-            <img src="img/github_icon.svg" alt="Github logo"/> <!-- add link href="https://github.com/rweathers89/portfolio-website" -->
-           <!-- <img src="img/youtube_icon.svg" alt="Youtube logo"/>  
+            <a href="https://www.linkedin.com/in/rachel-weathers/" target="_blank">
+                <img src="img/linkedin_icon.svg" alt="LinkedIn logo" />
+            </a>
+            <!--add link href="https://www.linkedin.com/in/rachel-weathers/"-->
+            <a href="https://github.com/rweathers89" target="_blank">
+                <img src="img/github_icon.svg" alt="Github logo" />
+            </a>
+            <!-- add link href="https://github.com/rweathers89" -->
+            <!-- <img src="img/youtube_icon.svg" alt="Youtube logo"/>  
         add YouTube link later-->
-        </div>    
+        </div>
     </footer>
     <a href="#">Back to Top</a> <!--@media, remove this when on larger screens-->
     <script src="js/tota11y.min.js"></script> <!--javascript plugin that checks if HTML is accessible-->

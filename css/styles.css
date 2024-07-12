@@ -22,7 +22,7 @@ body {
 /* the color pallet for the web page will teal #147463 and gold #e0b354 with 
 purple #460631 and pink #bf1864 accents*/
 h1 {
-  font-size: 30px;
+  font-size: 100px;
   font-weight: 700;
 }
 
@@ -101,6 +101,19 @@ button:focus, .button:focus {
   border-radius: 50%;
 }
 
+.about {
+  display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.grid_pic {
+  width: auto;
+  height: 250px;
+  float: left;
+}
+
 .page-footer {
   clear: both;
   display: -webkit-box;
@@ -158,7 +171,8 @@ button:focus, .button:focus {
   -webkit-box-flex: 0;
   -ms-flex: 0 1 200px;
   flex: 0 1 200px;
-  width: 10%;
+  width: 50%;
+  height: auto;
 }
 
 /*the order is flex grow, flex shrink, flex-basis;
@@ -182,6 +196,11 @@ set to 0, that means it will not be able to shrink.*/
   margin-left: 15px;
 }
 
+.screenshots {
+  height: 350px;
+  width: 550px;
+}
+
 /*lists the items side by side and gives them space of 15px btwn them*/
 .grid {
   display: -ms-grid;
@@ -199,6 +218,10 @@ set to 0, that means it will not be able to shrink.*/
   display: inline-block;
   width: 33%;
   padding: 2em;
+  a {
+    display: block;
+    padding: 5px;
+  }
 }
 
 /*start grid fallback*/
@@ -231,6 +254,11 @@ set to 0, that means it will not be able to shrink.*/
   .grid {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
+  }
+
+  .screenshots {
+    height: 150px;
+    width: 250px;
   }
 }
 @media all and (min-width: 500px) and (max-width: 750px) {
