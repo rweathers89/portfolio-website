@@ -52,6 +52,9 @@ a:hover {
 a:active {
   color: #BF1864;
 }
+.grid_link {
+  color: #e0b354;
+}
 
 button, .button {
   border: none;
@@ -145,7 +148,7 @@ button:focus, .button:focus {
   max-width: 700px;
   min-width: 300px;
   margin: 5px auto;
-  border: 10px double #460631;
+  border: 5px solid #147463;
   padding: 10px;
 }
 
